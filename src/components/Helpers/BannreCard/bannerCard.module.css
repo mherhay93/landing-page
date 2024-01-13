@@ -1,0 +1,101 @@
+.container {
+    padding: 0 1px;
+    position: relative;
+}
+
+.slider_img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text {
+    color: var(--white);
+    font-family: Navigo, serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 66px;
+    text-align: center;
+}
+
+.discount {
+    color: var(--gold);
+}
+
+.price_block {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.price {
+    color: var(--disabledText);
+    font-family: Navigo, serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    text-decoration: line-through;
+}
+
+.promotion {
+    color: var(--white);
+    text-align: center;
+    font-family: Navigo, serif;
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 24px;
+    background-color: var(--white);
+    padding: 17px 58px 13px 58px;
+    border-radius: 50px;
+}
+
+.btn_text {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+/* ------------ OffIndeed ----------- */
+
+.off_indeed {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    bottom: 12px;
+    right: 30px;
+    border-radius: 100px;
+    background: var(--main-orange);
+    width: 335px;
+    height: 60px;
+}
+
+.off_indeed_text {
+    color: #FFF;
+    font-family: Inter, serif;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.timer {
+    display: flex;
+    gap: 2px;
+}
+
+
