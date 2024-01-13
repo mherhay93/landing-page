@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 46px;
+}
+
+
+/* -------- nav links --------*/
+
+.nav_links {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.links_block {
+    display: flex;
+    gap: 167px;
+}
+
+.link {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+/* --------- NavButtons -----------*/
+
+.nav_buttons {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_buttons_call {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_buttons_phone {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.phone {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.call_me {
+    color: var(--green);
+    font-family: Navigo, serif;
+    font-size: 12px;
+    text-decoration-line: underline;
+    align-self: flex-end;
+}

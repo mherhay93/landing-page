@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a,
+button {
+  text-decoration: none;
+  all: unset;
+  cursor: pointer;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#root {
+  --black: #000;
+  --white: #FFF;
+  --green: #39BA39;
+
+}
+
+@font-face {
+  font-family: "Navigo";
+  src: url("./assets/fonts/navigo_regular/Navigo-Regular.eot");
+  src: url("./assets/fonts/navigo_regular/Navigo-Regular.eot?#iefix") format('embedded-opentype'),
+  url("./assets/fonts/navigo_regular/Navigo-Regular.eot") format("embedded-opentype"),
+  url("./assets/fonts/navigo_regular/Navigo-Regular.woff") format("woff"),
+  url("./assets/fonts/navigo_regular/Navigo-Regular.woff2") format("woff2");
 }

@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px 8px 24px;
+    border-radius: 20px;
+    background: var(--green);
+    cursor: pointer;
+}
+
+.name {
+    color: var(--white);
+    font-family: Navigo, serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+}

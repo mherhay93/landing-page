@@ -1,0 +1,11 @@
+.container {
+    margin: 0 130px;
+    width: 100%;
+}
+
+.title {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 50px;
+    font-weight: 700;
+}
