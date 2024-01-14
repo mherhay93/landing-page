@@ -39,3 +39,9 @@ export interface ICouponItem {
 export interface ICoupon {
     [key: idType]: ICouponItem
 }
+
+export interface ITestimonialsItem {
+    id: idType;
+    img: string;
+    title: string;
+}

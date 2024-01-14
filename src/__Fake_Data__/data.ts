@@ -1,5 +1,5 @@
 import sliderImg1 from '../assets/images/img.png'
-import {IBannerData, IBannerOffer, ICoupon, IMeal} from "./types";
+import {IBannerData, IBannerOffer, ICoupon, IMeal, ITestimonialsItem} from "./types";
 
 import info1 from '../assets/images/info1.png'
 import info2 from '../assets/images/info2.png'
@@ -240,3 +240,26 @@ export const couponData:ICoupon = {
         delivery: 0
     },
 }
+
+export const testimonialsData:ITestimonialsItem[] = [
+    {
+        id: 1,
+        img: meal1,
+        title: '01.01.2023'
+    },
+    {
+        id: 2,
+        img: meal3,
+        title: '01.10.2023'
+    },
+    {
+        id: 3,
+        img: meal2,
+        title: '12.01.2023'
+    },
+    // {
+    //     id: 4,
+    //     img: meal3,
+    //     title: '16.11.2023'
+    // },
+]

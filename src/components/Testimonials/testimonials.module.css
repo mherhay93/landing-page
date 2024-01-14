@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    overflow: auto;
+    gap: 30px;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+/*------------ card ------------*/
+
+.testimonials_card {
+    border-radius: 30px;
+    background: var(--grey-light);
+    padding: 21px 29px;
+}
+
+.testimonials_card_title {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.testimonials_card_img {
+    width: 317px;
+    height: 500px;
+}

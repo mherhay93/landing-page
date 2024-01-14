@@ -1,6 +1,7 @@
 .layout {
     background: var(--grey-light);
     margin-top: 60px;
+    padding-bottom: 60px;
 }
 
 .container {

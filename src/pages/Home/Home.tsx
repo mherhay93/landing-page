@@ -3,6 +3,7 @@ import cn from './home.module.css'
 import Banner from "../../components/Banner";
 import OrderRoot from "../../components/Order";
 import MapRoot from "../../components/Map";
+import Testimonials from "../../components/Testimonials";
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Banner/>
             <OrderRoot/>
             <MapRoot/>
+            <Testimonials/>
         </div>
     )
 }
