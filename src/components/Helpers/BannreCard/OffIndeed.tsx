@@ -1,4 +1,5 @@
 import {FC, useCallback, useEffect, useState} from "react";
+import {add0} from "../../../utiles/utiles";
 import cn from './bannerCard.module.css'
 
 interface IProps {
@@ -29,14 +30,14 @@ const OffIndeed: FC<IProps> = ({date}) => {
         
         return () => clearTimeout(timer);
     }, [timeLeft, calculateTime]);
-    
+
     return (
         <div className={cn.off_indeed}>
             <span className={cn.off_indeed_text}>The off indeed</span>
             <div className={`${cn.off_indeed_text} ${cn.timer}`}>
-                <span>{timeLeft.hours}</span>:
-                <span>{timeLeft.minutes}</span>:
-                <span>{timeLeft.seconds}</span>
+                <span>{add0(timeLeft.hours)}</span>:
+                <span>{add0(timeLeft.minutes)}</span>:
+                <span>{add0(timeLeft.seconds)}</span>
             </div>
         </div>
     )

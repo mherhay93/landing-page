@@ -1,11 +1,15 @@
+import {useContext} from "react";
 import {aboutUs} from "../../__Fake_Data__/data";
-import {formatReplace} from "../../utiles/utiles";
+import {formatReplace, scrollToElement} from "../../utiles/utiles";
+import Context from "../../context/Context";
 import PhoneIcon from "../Helpers/Phone";
 import Button from "../Helpers/Button";
 import cn from './navbar.module.css'
 
 const NavButtons = () => {
     const formattedPhoneNumber = formatReplace({phone: aboutUs.phone});
+    const context = useContext(Context)
+    
     return (
         <div className={cn.nav_buttons}>
             <div className={cn.nav_buttons_call}>
@@ -15,7 +19,7 @@ const NavButtons = () => {
                 </div>
                 <a href={`tel:${aboutUs.phone}`} className={cn.call_me}>Call me</a>
             </div>
-            <Button name={'ORDER'}/>
+            <Button onClick={() => scrollToElement(context)} name={'ORDER'}/>
         </div>
     )
 }

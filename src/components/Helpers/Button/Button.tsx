@@ -5,11 +5,12 @@ interface IProps {
     name: string | ReactElement,
     customClass?: string,
     customClassBtnName?: string,
+    onClick?: () => void
 }
 
-const Button: FC<IProps> = ({name, customClass = '', customClassBtnName=''}) => {
+const Button: FC<IProps> = ({name, customClass = '', customClassBtnName='', onClick}) => {
     return (
-        <button className={`${cn.container} ${customClass}`}>
+        <button onClick={onClick} className={`${cn.container} ${customClass}`}>
             <div className={`${cn.name} ${customClassBtnName}`}>
                 {name}
             </div>
