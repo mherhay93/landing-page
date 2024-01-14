@@ -4,8 +4,9 @@ import OrderRoot from "../../components/Order";
 import MapRoot from "../../components/Map";
 import Testimonials from "../../components/Testimonials";
 import FAQ from "../../components/FAQ";
-import cn from './home.module.css'
 import AboutUs from "../../components/AboutUs";
+import Footer from "../../components/Footer";
+import cn from './home.module.css'
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Testimonials/>
             <FAQ/>
             <AboutUs/>
+            <Footer/>
         </div>
     )
 }

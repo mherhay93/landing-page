@@ -23,6 +23,7 @@ code {
 #root {
     --black: #000;
     --white: #FFF;
+    --gray999: #999;
     --green: #39BA39;
     --gold: #DCFB73;
     --disabledText: rgba(255, 255, 255, 0.56);

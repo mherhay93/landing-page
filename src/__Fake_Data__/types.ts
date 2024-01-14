@@ -57,3 +57,8 @@ export interface IAboutUsQ {
     title:string;
     steps: string[]
 }
+
+export interface IFooterProm {
+    timePeriod: string,
+    price: number
+}
