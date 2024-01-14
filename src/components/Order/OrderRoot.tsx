@@ -3,7 +3,7 @@ import Menu from "./Menu/Menu";
 import Coupon from "./Coupon/Coupon";
 import cn from './order.module.css';
 
-const Order = () => {
+const OrderRoot = () => {
     return (
         <LayoutSection title={'Sample menu for the day'}>
             <div className={cn.container}>
@@ -14,4 +14,4 @@ const Order = () => {
     )
 }
 
-export default Order;
+export default OrderRoot;
