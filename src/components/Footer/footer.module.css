@@ -145,3 +145,52 @@
     background: var(--grey-light);
     margin-top: 28px;
 }
+
+@media screen and (max-width: 1024px){
+    .links,
+    .address,
+    .contacts {
+        font-size: 16px;
+        gap: 4px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer {
+        gap: 10px;
+        padding: 10px;
+    }
+    .links {
+       grid-row-start: 1;
+    }
+    .contacts,
+    .social {
+        grid-row-start: 2;
+    }
+    .social {
+        grid-column-start: 3;
+    }
+    .footer_icons {
+        grid-row-start: 3;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .footer_card {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .footer_card {
+        width: 360px;
+        padding: 20px;
+    }
+    .social {
+        grid-column-start: 2;
+    }
+    .address {
+        flex-direction: column;
+    }
+}

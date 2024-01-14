@@ -4,6 +4,13 @@
     gap: 30px;
 }
 
+@media screen and (max-width: 1440px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /*----------- map block -------------*/
 
 .map_block {
@@ -73,4 +80,37 @@
     font-size: 14px;
     font-weight: 500;
     width: 398px;
+}
+
+@media screen and (max-width: 768px){
+    .map_block {
+        min-width: 600px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .map_block {
+        min-width: 500px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .map_block {
+        min-width: 400px;
+    }
+    .container_map_info {
+        padding: 18px 8px;
+    }
+    .container_map_info_input {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .map_block {
+        min-width: 320px;
+    }
+    .info_item_desc {
+        width: 320px;
+    }
 }

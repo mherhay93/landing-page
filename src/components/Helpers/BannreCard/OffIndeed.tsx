@@ -33,7 +33,7 @@ const OffIndeed: FC<IProps> = ({date}) => {
 
     return (
         <div className={cn.off_indeed}>
-            <span className={cn.off_indeed_text}>The off indeed</span>
+            <span className={`${cn.off_indeed_text} ${cn.off_indeed_title}`}>The off indeed</span>
             <div className={`${cn.off_indeed_text} ${cn.timer}`}>
                 <span>{add0(timeLeft.hours)}</span>:
                 <span>{add0(timeLeft.minutes)}</span>:

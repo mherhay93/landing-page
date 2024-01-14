@@ -159,3 +159,86 @@
     align-items: center;
     width: 100%;
 }
+
+@media screen and (max-width: 1440px) {
+    .menu_container {
+        min-width: 600px;
+    }
+
+    .meal_list {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .menu_container {
+        min-width: 500px;
+    }
+
+    .meal_list {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .menu_container {
+        min-width: 400px;
+    }
+
+    .meal_list {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu_container {
+        min-width: 700px;
+    }
+
+    .meal_list {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu_container {
+        min-width: 500px;
+    }
+
+    .meal_list {
+        width: 500px;
+    }
+    .coupon_container_picker_item {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .menu_container {
+        min-width: 400px;
+    }
+
+    .meal_list {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .menu_container {
+        min-width: 360px;
+    }
+
+    .meal_list {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+   .coupon_body_button {
+       width: 80%;
+   }
+}

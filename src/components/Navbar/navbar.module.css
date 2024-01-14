@@ -9,7 +9,6 @@
     width: 46px;
 }
 
-
 /* -------- nav links --------*/
 
 .nav_links {
@@ -63,4 +62,32 @@
     font-size: 12px;
     text-decoration-line: underline;
     align-self: flex-end;
+}
+
+.ham_menu {
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .links_block {
+        gap: 80px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container {
+        padding: 10px;
+    }
+    .nav_links,
+    .nav_buttons {
+        display: none;
+    }
+    .layout {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .ham_menu {
+        display: flex;
+        gap: 20px;
+    }
 }

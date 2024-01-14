@@ -1,6 +1,8 @@
 import cn from './bannerCard.module.css'
 import {IBannerData} from "../../../__Fake_Data__/types";
-import {FC} from "react";
+import Context from "../../../context/Context";
+import {scrollToElement} from "../../../utiles/utiles";
+import {FC, useContext} from "react";
 import Button from "../Button";
 import OffIndeed from "./OffIndeed";
 
@@ -10,6 +12,7 @@ interface IProps {
 
 const BannerCard: FC<IProps> = ({item}) => {
     const {bgImage, title, price, discount, promotionTitle} = item
+    const context = useContext(Context)
     return (
         <div className={cn.container}>
             <img className={cn.slider_img} alt={'img'} src={bgImage}/>
@@ -21,6 +24,7 @@ const BannerCard: FC<IProps> = ({item}) => {
                 </div>
                 <span className={cn.promotion}>{promotionTitle}</span>
                 <Button
+                    onClick={() => scrollToElement(context)}
                     customClass={cn.button}
                     customClassBtnName={cn.btn_text}
                     name={'ORDER NOW'}/>

@@ -29,3 +29,17 @@
     flex-direction: column;
     gap: 22px;
 }
+
+@media screen and (max-width: 768px){
+    .faq_offer {
+        flex-wrap: wrap;
+        gap: 8px;
+
+    }
+    .faq_offer_card_img {
+        width: 30px;
+    }
+    .faq_offer_card {
+        width: 100px;
+    }
+}
