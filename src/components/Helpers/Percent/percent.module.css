@@ -1,0 +1,18 @@
+.container {
+    width: 40px;
+    height: 18px;
+    border-radius: 12px;
+    background: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    color: var(--white);
+    text-align: center;
+    font-family: Navigo, serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 3px;
+}

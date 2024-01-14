@@ -1,8 +1,8 @@
-import {FC} from "react";
+import {FC, ReactElement} from "react";
 import cn from './button.module.css'
 
 interface IProps {
-    name: string,
+    name: string | ReactElement,
     customClass?: string,
     customClassBtnName?: string,
 }
@@ -10,9 +10,9 @@ interface IProps {
 const Button: FC<IProps> = ({name, customClass = '', customClassBtnName=''}) => {
     return (
         <button className={`${cn.container} ${customClass}`}>
-            <span className={`${cn.name} ${customClassBtnName}`}>
+            <div className={`${cn.name} ${customClassBtnName}`}>
                 {name}
-            </span>
+            </div>
         </button>
     )
 }

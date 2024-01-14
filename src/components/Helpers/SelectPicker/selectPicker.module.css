@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    gap: 5px;
+}
+
+/* --------- item ----------*/
+
+.picker_item {
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid var(--grey-grey-form);
+    min-width: 47px;
+    min-height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.active {
+    border-color: var(--orange);
+}
+
+.picker_item_title_container {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+
+.picker_item_title {
+    display: flex;
+    align-items: center;
+    gap: 4px
+}
+
+.picker_item_title_installments {
+    color: var(--orange);
+}
+
+.percent {
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+
+.freeze {
+    position: absolute;
+    right: 0;
+    bottom: -16px;
+}

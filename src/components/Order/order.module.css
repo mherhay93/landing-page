@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 95px;
+}
+
+
+/*-------- menu ------------*/
+
+.menu_container {
+    min-width: 710px;
+}
+
+.title_container {
+    display: flex;
+    gap: 23px;
+    align-items: center;
+    margin: 20px 0 14px;
+}
+
+.title_meal {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.title_ccal {
+    color: var(--black-black-50);
+    font-family: Navigo, serif;
+    line-height: 20px;
+}
+
+.meal_list {
+    display: flex;
+    gap: 25px;
+    width: 710px;
+    overflow: auto;
+}
+
+.meal_list::-webkit-scrollbar {
+    display: none;
+}
+
+.meal_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-width: 180px;
+    min-height: 334px;
+    border-radius: 30px;
+    background: var(--grey-light);
+    padding: 10px 0 22px;
+}
+
+.meal_card_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.meal_card_body_title {
+    color: var(--black);
+    font-family: Navigo, serif;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.meal_card_body_desc {
+    color: var(--black-black-50);
+    font-family: Navigo, serif;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+/* ------------ coupon ----------- */
+
+.coupon_container {
+
+}
+
+.coupon_header {
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon_title {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    opacity: .2;
+    background-color: var(--grey-dark);
+    margin-top: 22px;
+}
+
+.coupon_container_picker_item {
+    padding: 0 20px;
+}
+
+.coupon_body_items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.coupon_body_item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coupon_body_item_title {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.coupon_body_items * span {
+    color: var(--black);
+    font-family: Navigo, serif;
+    line-height: 20px;
+}
+
+.coupon_body_item_sale {
+    color: var(--orange) !important;
+}
+
+.coupon_body_phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.coupon_body_phone_subtitle {
+    color: var(--grey-black);
+    font-family: Navigo, serif;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.coupon_body_button {
+    width: 89%;
+    padding-top: 25px;
+    padding-bottom: 19px;
+    border-radius: 50px;
+    margin-top: 59px;
+}
+
+.coupon_body_button_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

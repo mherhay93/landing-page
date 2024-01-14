@@ -1,5 +1,7 @@
+import {idType} from "../../types/types";
+
 export interface INavLink {
-    id: string | number,
+    id: idType,
     name: string,
     href: string,
 }

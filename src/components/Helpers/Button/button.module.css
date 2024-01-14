@@ -9,6 +9,7 @@
 }
 
 .name {
+    width: 100%;
     color: var(--white);
     font-family: Navigo, serif;
     font-size: 18px;

@@ -1,5 +1,7 @@
 .container {
     margin: 0 130px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -7,4 +9,6 @@
     font-family: Navigo, serif;
     font-size: 50px;
     font-weight: 700;
+    text-align: center;
+    margin: 60px 0 30px;
 }

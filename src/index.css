@@ -8,7 +8,8 @@ body {
 }
 
 a,
-button {
+button,
+input {
     text-decoration: none;
     all: unset;
     cursor: pointer;
@@ -26,6 +27,12 @@ code {
     --gold: #DCFB73;
     --disabledText: rgba(255, 255, 255, 0.56);
     --main-orange: #FF5934;
+    --grey-grey-form: #DBDBDB;
+    --orange: #FF5900;
+    --black-black-50: rgba(32, 31, 29, 0.50);
+    --grey-light: #F7F7F7;
+    --grey-dark: #C7C7C7;
+    --grey-black: #656565;
 }
 
 @font-face {

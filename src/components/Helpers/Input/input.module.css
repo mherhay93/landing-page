@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    padding-right: 30px;
+}
+
+.container_input {
+    width: 100%;
+    border-radius: 35px;
+    background: var(--grey-light);
+    padding: 22px 0 21px 30px;
+    align-items: center;
+    color: var(--grey-black);
+    text-align: start;
+    font-family: Navigo, serif;
+}
+
+.plus {
+    position: absolute;
+    color: var(--grey-black);
+    font-family: Navigo, serif;
+    font-weight: bold;
+    top: 21px;
+    left: 20px;
+}
+
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
