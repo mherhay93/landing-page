@@ -5,6 +5,7 @@ import MapRoot from "../../components/Map";
 import Testimonials from "../../components/Testimonials";
 import FAQ from "../../components/FAQ";
 import cn from './home.module.css'
+import AboutUs from "../../components/AboutUs";
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <MapRoot/>
             <Testimonials/>
             <FAQ/>
+            <AboutUs/>
         </div>
     )
 }

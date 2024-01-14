@@ -51,3 +51,9 @@ export interface IFAQData {
  title: string;
  description: string
 }
+
+export interface IAboutUsQ {
+    id:idType;
+    title:string;
+    steps: string[]
+}

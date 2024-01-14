@@ -5,7 +5,7 @@ import cn from './mapRoot.module.css'
 
 const MapRoot = () => {
     return (
-        <LayoutSection title={'Delivery Map'} customClass={cn.layout}>
+        <LayoutSection title={'Delivery Map'} customClass='layout'>
             <div className={cn.container}>
                 <Map/>
                 <MapInfo/>

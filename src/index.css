@@ -35,6 +35,12 @@ code {
     --grey-black: #656565;
 }
 
+.layout {
+    background: var(--grey-light);
+    margin-top: 60px;
+    padding-bottom: 60px !important;
+}
+
 @font-face {
     font-family: "Navigo";
     src: url("./assets/fonts/navigo_regular/Navigo-Regular.eot");
