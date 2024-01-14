@@ -1,6 +1,6 @@
 import cn from './banner.module.css'
 import {bannerOffer} from "../../__Fake_Data__/data";
-import OfferCard from "./OfferCard";
+import OfferCard from "../Helpers/OfferCard";
 
 const BannerOffer = () => {
     return (

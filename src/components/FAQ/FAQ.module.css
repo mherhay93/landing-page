@@ -1,0 +1,31 @@
+.container {
+
+}
+
+.faq_offer {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+}
+
+.faq_offer_card {
+    border-radius: 24px;
+    background: var(--grey-light);
+    width: 200px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.faq_offer_card_img {
+    width: 52px;
+}
+
+.faq_body {
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}

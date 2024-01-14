@@ -45,3 +45,9 @@ export interface ITestimonialsItem {
     img: string;
     title: string;
 }
+
+export interface IFAQData {
+ id: idType;
+ title: string;
+ description: string
+}

@@ -1,0 +1,49 @@
+.container {
+    border-radius: 24px;
+    background: var(--grey-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px 20px;
+
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.header_title {
+    color: var(--black);
+    font-family: Navigo, serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.arrow {
+    transition: all .3s;
+}
+
+.open_arrow {
+    rotate: 180deg;
+    transition: all .3s;
+}
+
+.content {
+    height: 0;
+    overflow: hidden;
+    transition: all .3s;
+}
+
+.open {
+    height: 400px;
+    overflow: auto;
+}
+
+.open::-webkit-scrollbar {
+    width: 2px;
+}

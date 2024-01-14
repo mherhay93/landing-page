@@ -37,7 +37,7 @@ const Map: FC = () => {
     };
 
     return (
-        isLoaded ?        (
+        isLoaded ? (
             <GoogleMap
             mapContainerClassName={cn.map_block}
             center={center}
@@ -50,7 +50,7 @@ const Map: FC = () => {
                 position={bookmarkPosition}
                 icon={iconMarker}
             />
-        </GoogleMap>) : <div className={cn.map_block}></div>
+        </GoogleMap>) : null
     );
 };
 

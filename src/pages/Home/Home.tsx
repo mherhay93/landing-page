@@ -1,9 +1,10 @@
 import Navbar from "../../components/Navbar";
-import cn from './home.module.css'
 import Banner from "../../components/Banner";
 import OrderRoot from "../../components/Order";
 import MapRoot from "../../components/Map";
 import Testimonials from "../../components/Testimonials";
+import FAQ from "../../components/FAQ";
+import cn from './home.module.css'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <OrderRoot/>
             <MapRoot/>
             <Testimonials/>
+            <FAQ/>
         </div>
     )
 }
